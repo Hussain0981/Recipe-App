@@ -15,5 +15,10 @@ export default defineNuxtConfig({
     '@nuxt/icon',
     '@pinia/nuxt',
     '@nuxt/image',
+    'nuxt-aos',
   ],
+  aos: {
+    duration: 400,
+    once: false
+  }
 })
